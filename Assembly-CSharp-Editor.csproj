@@ -70,8 +70,20 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder">
+ <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.Editor">
+ <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+ <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -87,6 +99,12 @@
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
@@ -279,6 +297,9 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/2019.4.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="clipper_library">
+ <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/PackageCache/com.unity.cinemachine@2.7.2/Runtime/ThirdParty/clipper_library.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
