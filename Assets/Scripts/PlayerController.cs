@@ -15,8 +15,8 @@ public class PlayerController : MonoBehaviour
 	[SerializeField][Tooltip("The force applied to the character when jumping")]
 	private float JumpForce = 5f;
 	
-	// [SerializeField][Tooltip("The camera for the first person controller")]
-	// public Camera _Camera;
+	[SerializeField][Tooltip("The camera for the first person controller")]
+	public Camera _Camera;
 
 	[SerializeField]
 	[Tooltip("The fall speed modifier, increases gravity")]
@@ -142,8 +142,8 @@ public class PlayerController : MonoBehaviour
 		{
 			Cursor.lockState = CursorLockMode.Locked;
 			Cursor.visible = false;
-			/*
-			// camera movement: 
+			
+			// camera movement:
 			
 			// cache the camera input axes
 			Vector2 inputAxes = new Vector2(Input.GetAxisRaw("Horizontal_Camera"), Input.GetAxisRaw("Vertical_Camera"));
@@ -164,7 +164,6 @@ public class PlayerController : MonoBehaviour
 
 			// apply to the camera
 			_Camera.transform.localEulerAngles = new Vector3(_cameraVerticalAngle, 0f, 0f);
-			*/
 		}
 	}
 
@@ -173,10 +172,8 @@ public class PlayerController : MonoBehaviour
 		throw new NotImplementedException();
 	}
 
-	/*
 	private void OnDrawGizmos()
 	{
 		Gizmos.DrawSphere(_Camera.transform.position + _Camera.transform.forward,0.01f);
 	}
-	*/
 }

@@ -10,8 +10,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="425481af-3364-4e76-928d-cad0cf0fe054" name="Default Changelist" comment="commit message">
+    <list default="true" id="425481af-3364-4e76-928d-cad0cf0fe054" name="Default Changelist" comment="same as previous commit but actually contains new stuff this time">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Desolate World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Desolate World/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Terrain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Terrain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +38,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TitanController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -79,7 +92,8 @@
       <workItem from="1617639908919" duration="519000" />
       <workItem from="1617640457807" duration="1289000" />
       <workItem from="1617643402347" duration="620000" />
-      <workItem from="1617796824943" duration="355000" />
+      <workItem from="1617796824943" duration="1152000" />
+      <workItem from="1618066331040" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="commit message">
       <created>1613737456848</created>
@@ -102,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617797142592</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="same as previous commit but actually contains new stuff this time">
+      <created>1617797371146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617797371146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,17 +148,18 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="commit message" />
     <MESSAGE value="Titan flight path + greybox foundations. Player controller currently disabled due to some issues its had recently." />
-    <option name="LAST_COMMIT_MESSAGE" value="Titan flight path + greybox foundations. Player controller currently disabled due to some issues its had recently." />
+    <MESSAGE value="same as previous commit but actually contains new stuff this time" />
+    <option name="LAST_COMMIT_MESSAGE" value="same as previous commit but actually contains new stuff this time" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1617797151245">
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1617797377765">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1617797151245" />
-    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613737393109">
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1617797377765" />
+    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1617797284977">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
-    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1613737393109" />
+    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1617797284977" />
     <state x="2081" y="44" width="1214" height="999" key="dock-window-1" timestamp="1615745776857">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
