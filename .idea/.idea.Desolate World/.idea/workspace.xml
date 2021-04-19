@@ -10,8 +10,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="425481af-3364-4e76-928d-cad0cf0fe054" name="Default Changelist" comment="same as previous commit but actually contains new stuff this time">
+    <list default="true" id="425481af-3364-4e76-928d-cad0cf0fe054" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Desolate World/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Desolate World/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Desolate World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Desolate World/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Terrain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Terrain.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +44,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/TitanController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
@@ -81,6 +100,9 @@
       <workItem from="1617643402347" duration="620000" />
       <workItem from="1617796824943" duration="1152000" />
       <workItem from="1618066331040" duration="1529000" />
+      <workItem from="1618153520547" duration="906000" />
+      <workItem from="1618162332006" duration="1403000" />
+      <workItem from="1618831269788" duration="975000" />
     </task>
     <task id="LOCAL-00001" summary="commit message">
       <created>1613737456848</created>
@@ -117,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618067643712</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="this might be a bit much, I forget whats in the .gitnore [I might have to remove this commit later]">
+      <created>1618153814252</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618153814252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,17 +173,18 @@
     <MESSAGE value="Titan flight path + greybox foundations. Player controller currently disabled due to some issues its had recently." />
     <MESSAGE value="same as previous commit but actually contains new stuff this time" />
     <MESSAGE value="Basic 3rd person player controller implemented - no tracking yet but movement, jumping, and mouse-controlled 3rd person camera are working." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic 3rd person player controller implemented - no tracking yet but movement, jumping, and mouse-controlled 3rd person camera are working." />
+    <MESSAGE value="this might be a bit much, I forget whats in the .gitnore [I might have to remove this commit later]" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1618067653468">
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1618153827945">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1618067653468" />
-    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1617797284977">
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1618153827945" />
+    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1618153691927">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
-    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1617797284977" />
+    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1618153691927" />
     <state x="2081" y="44" width="1214" height="999" key="dock-window-1" timestamp="1615745776857">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>

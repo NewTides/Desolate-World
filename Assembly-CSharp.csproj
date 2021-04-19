@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\NPCharacter.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\TitanController.cs" />
+     <Compile Include="Assets\Scripts\UIManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Jake/Desktop/3rd Person 3D group project year 2/Desolate World/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
