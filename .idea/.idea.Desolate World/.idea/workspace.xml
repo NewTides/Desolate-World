@@ -11,24 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="425481af-3364-4e76-928d-cad0cf0fe054" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Desolate World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Desolate World/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Heightmap test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Heightmap test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Terrain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Terrain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LineOfSight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LineOfSight.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +100,7 @@
       <workItem from="1618833080295" duration="1588000" />
       <workItem from="1618835789996" duration="1349000" />
       <workItem from="1618840260930" duration="599000" />
+      <workItem from="1618922534103" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="commit message">
       <created>1613737456848</created>
@@ -171,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618834045124</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Post-testing commit">
+      <created>1618922605625</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1618922605625</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,17 +195,18 @@
     <MESSAGE value="this might be a bit much, I forget whats in the .gitnore [I might have to remove this commit later]" />
     <MESSAGE value="Menu sort-of implemented" />
     <MESSAGE value="Final pre-test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final pre-test commit" />
+    <MESSAGE value="Post-testing commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post-testing commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1618153827945">
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2" timestamp="1618922622226">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
-    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1618153827945" />
-    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1618834025360">
+    <state x="1918" y="66" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1618922622226" />
+    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1618922576043">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
-    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1618834025360" />
+    <state x="2060" y="68" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728/1366.-185.1920.1040@1366.-185.1920.1040" timestamp="1618922576043" />
     <state x="2081" y="44" width="1214" height="999" key="dock-window-1" timestamp="1615745776857">
       <screen x="1366" y="-185" width="1920" height="1040" />
     </state>
