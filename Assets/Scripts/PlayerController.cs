@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
 	private float GravityMultiplier = 1f;
 	
 	[SerializeField][Tooltip("Walking speed of the character")]
-	private Vector3 WalkingSpeed = new Vector3(2f,0f,4f); 	
+	private Vector3 WalkingSpeed = new Vector3(4f,0f,6f); 	
 	
 	//[SerializeField][Tooltip("Sprinting speed of the character")]
 	//private Vector3 SprintSpeed = new Vector3(2f,0f,9f); 
@@ -139,33 +139,33 @@ public class PlayerController : MonoBehaviour
 			Cursor.visible = true;
 		}
 		else
-		{
+		{ 
 			Cursor.lockState = CursorLockMode.Locked;
-			Cursor.visible = false;
-			
-			// camera movement:
-			
-			// cache the camera input axes
-			Vector2 inputAxes = new Vector2(Input.GetAxisRaw("Horizontal_Camera"), Input.GetAxisRaw("Vertical_Camera"));
-			//Debug.Log($"Hor:{Input.GetAxisRaw("Horizontal_Camera")} Ver:{Input.GetAxisRaw("Vertical_Camera")}");
+			Cursor.visible = false; 
 
-			// scale the input by the camera speed
-			inputAxes.Scale(CameraSpeed);
+		// camera movement:
 
-			// horizontal rotation - rotate the character
-			transform.Rotate(Vector3.up, inputAxes.x, Space.Self);
+		// cache the camera input axes
+		Vector2 inputAxes = new Vector2(Input.GetAxisRaw("Horizontal_Camera"), Input.GetAxisRaw("Vertical_Camera"));
+		//Debug.Log($"Hor:{Input.GetAxisRaw("Horizontal_Camera")} Ver:{Input.GetAxisRaw("Vertical_Camera")}");
 
-			// vertical rotation - rotate the camera
-			// add new input to the accumulated angle
-			_cameraVerticalAngle += inputAxes.y;
+		// scale the input by the camera speed
+		inputAxes.Scale(CameraSpeed);
 
-			// clamp the vertical rotation to be between min and max angles
-			_cameraVerticalAngle = Mathf.Clamp(_cameraVerticalAngle, MinCameraVerticalAngle, MaxCameraVerticalAngle);
+		// horizontal rotation - rotate the character
+		transform.Rotate(Vector3.up, inputAxes.x, Space.Self);
 
-			// apply to the camera
-			_Camera.transform.localEulerAngles = new Vector3(_cameraVerticalAngle, 0f, 0f);
-		}
+		// vertical rotation - rotate the camera
+		// add new input to the accumulated angle
+		_cameraVerticalAngle += inputAxes.y;
+
+		// clamp the vertical rotation to be between min and max angles
+		_cameraVerticalAngle = Mathf.Clamp(_cameraVerticalAngle, MinCameraVerticalAngle, MaxCameraVerticalAngle);
+
+		// apply to the camera
+		_Camera.transform.localEulerAngles = new Vector3(_cameraVerticalAngle, 0f, 0f);
 	}
+}
 
 	private void Menu()
 	{

@@ -20,7 +20,7 @@ public class LineOfSight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Dubug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.red, 0.5f);
+       // Dubug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.red, 0.5f);
         
         
     }
