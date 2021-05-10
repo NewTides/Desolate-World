@@ -15,13 +15,7 @@ public class TitanController : MonoBehaviour
     public float distance;
     private Vector3 targetPosition;
     
-    /*
-    public float rayDistance = 6f;
-    public Transform rayFrom;    // detect ray from here
-    public LayerMask rayCastOn;  // raycast on this layer!
-    public enum ChipStates {SCAN, FIRE}
-    public ChipStates chipstate = ChipStates.SCAN;
-    */
+    
 
     void Start()
     {
@@ -62,57 +56,6 @@ public class TitanController : MonoBehaviour
         {
             GotoNextPoint();
         }
-        /*
-        switch (chipstate)
-        {
-            case ChipStates.SCAN:
-                Scan();
-                break;
-            case ChipStates.FIRE:
-                Attack();
-                break;
-        }
-        */
-    }
-    
-   // void OnTriggerEnter(Collider other)
-    //{
-        // is it a virus?
-        //if (other.CompareTag("Player"))
-       // {
-            // find where on the grid this is
-            /* Vector3Int position = grid.WorldToCell(rayFrom.position); 
-            tilemap.SetTile(position, null); // set tile at this position as null
-            rb.velocity = Vector2.zero; // stop any movement */
-           // chipstate = ChipStates.SCAN; // resume scan 
-                
-       // }
-    //}
-
-    /*
-    void Scan()
-    {
-        Vector3 forward = transform.TransformDirection(Vector3.up) * rayDistance;
-        RaycastHit hit = Physics.Raycast( rayFrom.position, forward, rayDistance, rayCastOn, QueryTriggerInteraction.UseGlobal);
-        if (hit.collider != null)
-        {
-            Debug.Log($"Hit {hit.collider.name}");
-            // draw red if hit
-            Debug.DrawRay( rayFrom.position, forward, Color.red);
-            //chipstate = ChipStates.CLEAN;
-                
-        }
-        else
-        {
-            // draws green if no hit
-            Debug.DrawRay( rayFrom.position, forward, Color.green);
-        }
-    }
-
-    void Attack()
-    {
-            
-    }
-    */
+        
     
 }
